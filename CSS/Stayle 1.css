@@ -270,7 +270,7 @@ header {
     justify-content: end;
 }
 .story .container-story{
-    width: 290px;
+    width: 270px;
 }
 .story .container-story h1{
     font-family: var(--font-irish);
@@ -297,7 +297,7 @@ header {
 }
 .story img{
     position: absolute;
-    right: 0px;
+    right: -50px;
     max-width: 110%;
     max-height: 110%;
 }
