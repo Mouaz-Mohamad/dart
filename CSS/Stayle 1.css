@@ -274,7 +274,7 @@ header {
     justify-content: end;
 }
 .story .container-story{
-    width: 270px;
+    width: 240px;
     color: var(--bragnte);
     position: relative;
     z-index: 3;
@@ -300,7 +300,7 @@ header {
 }
 .story img{
     position: absolute;
-    right: -50px;
+    right: -40px;
     max-width: 110%;
     max-height: 110%;
 }
