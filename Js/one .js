@@ -43,18 +43,18 @@ function isThreeWords(name) {
 // استدعاء السكاشن ثم تشغيل المنيو
 document.addEventListener('DOMContentLoaded', async () => {
     await Promise.all([
-        loadSection('header-container', 'sections/Nav-Bar.html'),
-        loadSection('search-serial-container', 'sections/search-serial.html'),
-        loadSection('leaderboard-card', 'sections/leaderboard-card.html'),
-        loadSection('birthday', 'sections/birthday.html'),
-        loadSection('feedback-form', 'sections/form-feedback.html'),
-        loadSection('return-form', 'sections/form-return.html'),
-        loadSection('contact-form', 'sections/form-contact.html'),
-        loadSection('story', 'sections/story.html'),
-        loadSection('dart-for-you', 'sections/dart-for-you.html'),
-        loadSection('birthday-details', 'sections/birthday-details.html'),
-        loadSection('card-details', 'sections/card.html'),
-        loadSection('why', 'sections/why-dart.html'),
+        loadSection('header-container', './sections/Nav-Bar.html'),
+        loadSection('search-serial-container', './sections/search-serial.html'),
+        loadSection('leaderboard-card', './sections/leaderboard-card.html'),
+        loadSection('birthday', './sections/birthday.html'),
+        loadSection('feedback-form', './sections/form-feedback.html'),
+        loadSection('return-form', './sections/form-return.html'),
+        loadSection('contact-form', './sections/form-contact.html'),
+        loadSection('story', './sections/story.html'),
+        loadSection('dart-for-you', './sections/dart-for-you.html'),
+        loadSection('birthday-details', './sections/birthday-details.html'),
+        loadSection('card-details', './sections/card.html'),
+        loadSection('why', './sections/why-dart.html'),
     ]);
 
     // يشتغل بعد ما Nav-Bar ينزل تماماً في الـ DOM
