@@ -278,6 +278,7 @@ header {
     color: var(--bragnte);
     position: relative;
     z-index: 3;
+    padding-left: 10px;
 }
 .story .container-story h1{
     font-family: var(--font-irish);
