@@ -234,11 +234,12 @@ header {
     font-size: clamp(1.5rem, 3.5vw, 2rem);
 }
 .form{
-    width: 90%;
+    width: 95%;
     text-align: left;
 }
 
-.form-group{
+.form-group,
+.form .container-select{
     font-size: 13px;
     color: rgba(0, 0, 0, 0.7);
     margin: 5px 0;
