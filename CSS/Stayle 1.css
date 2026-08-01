@@ -277,7 +277,7 @@ header {
     justify-content: end;
 }
 .story .container-story{
-    width: clamp(70%, 30vw, 70%);
+    width: 87%;
     color: var(--bragnte);
     position: relative;
     z-index: 3;
@@ -285,10 +285,10 @@ header {
 .story .container-story h1,
 .birthday-details .birthday-conteiner2 h1{
     font-family: var(--font-irish);
-    font-size: clamp(45px, 8vw, 60px);
+    font-size: clamp(50px, 8vw, 70px);
     -webkit-text-stroke: 0.2px var(--white);
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .story .container-story h3,
 .birthday-details .birthday-conteiner2 h3{
@@ -297,11 +297,12 @@ header {
     font-family: var(--font-cabin);
     font-weight: 470;
     font-size: clamp(1.2em, 2.5vw, 1.3em);
-    margin-right: 15px;
+    margin-right: 100px;
 }
 .story .container-story h4{
     margin: 20px 20px 0 0;
     font-size: clamp(0.85em, 2vw, 1em);
+    margin-right: 110px;
 }
 .story img{
     position: absolute;
@@ -333,4 +334,7 @@ header {
     right: -100px;
     max-height: 87%;
     max-width: 87%;
+}
+.birthday-details .birthday-conteiner2 h3{
+    margin-right: 20px;
 }
