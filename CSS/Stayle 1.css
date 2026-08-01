@@ -293,7 +293,6 @@ header {
     font-weight: 500;
     font-size: clamp(1.2em, 2.5vw, 1.3em);
     margin-right: 15px;
-    -webkit-text-stroke: 0.2px var(--white);
 }
 .story .container-story h4{
     margin: 20px 20px 0 0;
