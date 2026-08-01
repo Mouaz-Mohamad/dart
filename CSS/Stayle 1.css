@@ -274,7 +274,7 @@ header {
     justify-content: end;
 }
 .story .container-story{
-    width: 260px;
+    width: clamp(250px, 30vw, 360px);
     color: var(--bragnte);
     position: relative;
     z-index: 3;
