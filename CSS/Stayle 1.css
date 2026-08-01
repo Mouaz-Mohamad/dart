@@ -276,25 +276,23 @@ header {
 .story .container-story{
     width: 270px;
     color: var(--bragnte);
+    position: relative;
+    z-index: 3;
 }
 .story .container-story h1{
     font-family: var(--font-irish);
     font-size: clamp(35px, 8vw, 50px);
     -webkit-text-stroke: 0.2px var(--white);
-    position: relative;
-    z-index: 3;
     text-align: left;
 }
 .story .container-story h3{
     text-align: right;
     line-height: 1.1;
     font-family: var(--font-cabin);
-    font-weight: 450;
+    font-weight: 500;
     font-size: clamp(1.2em, 2.5vw, 1.3em);
     margin-right: 15px;
     -webkit-text-stroke: 0.2px var(--white);
-    position: relative;
-    z-index: 3;
 }
 .story .container-story h4{
     margin: 20px 20px 0 0;
