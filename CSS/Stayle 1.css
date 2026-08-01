@@ -204,12 +204,16 @@ header {
 }
 
 .birthday-conteiner span {
-    font-size: clamp(18px, 3vw, 25px);
+    font-size: clamp(18px, 3vw, 30px);
     color: var(--bragnte);
+}
+.birthday-conteiner img{
+    width: 120px;
+    height: 100px;
 }
 
 .paragraph-btn {
-    width: 60%;
+    width: 100%;
     gap: 15px;
 }
 
