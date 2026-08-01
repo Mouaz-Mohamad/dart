@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         loadSection('dart-for-you', 'sections/dart-for-you.html'),
         loadSection('birthday-details', 'sections/birthday-details.html'),
         loadSection('card-details', 'sections/card.html'),
+        loadSection('why', 'sections/why-dart.html'),
     ]);
 
     // يشتغل بعد ما Nav-Bar ينزل تماماً في الـ DOM
