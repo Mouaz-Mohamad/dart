@@ -284,7 +284,8 @@ header {
     z-index: 3;
 }
 .story .container-story h1,
-.birthday-details .birthday-conteiner2 h1{
+.birthday-details .birthday-conteiner2 h1,
+.card-details .card-conteiner h1{
     font-family: var(--font-irish);
     font-size: clamp(50px, 8vw, 70px);
     -webkit-text-stroke: 0.2px var(--white);
@@ -312,17 +313,6 @@ header {
     max-height: 100%;
 }
 
-
-.dart-for-you h1{
-    font-size: clamp(2rem , 6vh , 3rem);
-    font-family: var(--font-itim);
-    color: var(--bragnte);
-}
-.dart-for-you img{
-    width: 40%;
-    height: 40%;
-}
-
 .birthday-conteiner2{
     width: 80%;
     color: var(--bragnte);
@@ -338,4 +328,40 @@ header {
 }
 .birthday-details .birthday-conteiner2 h3{
     margin-right: 50px;
+}
+
+.card-details{
+    background-color: var(--white);
+    position: relative;
+    color: var(--bragnte);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.card-conteiner{
+    width: 69%;
+    justify-self: left;
+    z-index: 3;
+}
+
+.card-details img{
+    position: absolute;
+    left: -40px;
+    max-height: 87%;
+    max-width: 87%;
+}
+
+.card-conteiner h3{
+
+    text-align: right;
+}
+
+.dart-for-you h1{
+    font-size: clamp(2rem , 6vh , 3rem);
+    font-family: var(--font-itim);
+    color: var(--bragnte);
+}
+.dart-for-you img{
+    width: 40%;
+    height: 40%;
 }
