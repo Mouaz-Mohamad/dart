@@ -1,3 +1,16 @@
+.form label,
+.form input,
+.form textarea,
+.form-row,
+.form .container-select,
+.form .container-select select,
+.story,
+.submit-btn-form,
+.container-select select option,
+.dart-for-you{
+    width: 100%;
+}
+
 /* Layout & Header */
 header {
     display: flex;
@@ -225,17 +238,6 @@ header {
     text-align: left;
 }
 
-.form label,
-.form input,
-.form textarea,
-.form-row,
-.form .container-select,
-.form .container-select select,
-.story,
-.submit-btn-form,
-.container-select select option{
-    width: 100%;
-}
 .form-group{
     font-size: 13px;
     color: rgba(0, 0, 0, 0.7);
@@ -307,3 +309,8 @@ header {
 }
 
 
+.dart-for-you h1{
+    font-size: clamp(2rem , 6vh , 3rem);
+    font-family: var(--font-itim);
+    color: var(--bragnte);
+}
