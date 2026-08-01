@@ -284,8 +284,7 @@ header {
     z-index: 3;
 }
 .story .container-story h1,
-.birthday-details .birthday-conteiner2 h1,
-.card-details .card-conteiner h1{
+.birthday-details .birthday-conteiner2 h1{
     font-family: var(--font-irish);
     font-size: clamp(50px, 8vw, 70px);
     -webkit-text-stroke: 0.2px var(--white);
@@ -346,14 +345,24 @@ header {
 
 .card-details img{
     position: absolute;
-    left: -50px;
+    left: -20px;
     max-height: 87%;
     max-width: 87%;
+    top: 40px;
+}
+
+.card-conteiner h1{
+    text-align: right;
+    font-family: var(--font-irish);
+    font-size: clamp(50px, 8vw, 70px);
+    -webkit-text-stroke: 0.2px var(--white);
+    margin-right: 10px;
 }
 
 .card-conteiner h3{
-
+    margin-right: 20px;
     text-align: right;
+    margin-left: 70px;
 }
 
 .dart-for-you h1{
