@@ -330,7 +330,7 @@ header {
 
 .birthday-details img{
     position: absolute;
-    right: -115px;
-    max-height: 100%;
-    max-width: 100%;
+    right: -150px;
+    max-height: 70%;
+    max-width: 70%;
 }
