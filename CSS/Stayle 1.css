@@ -322,7 +322,7 @@ header {
 }
 
 .birthday-conteiner2{
-    width: clamp(90%, 30vw, 90%);
+    width: 75%;
     color: var(--bragnte);
     position: relative;
     z-index: 3;
@@ -331,6 +331,6 @@ header {
 .birthday-details img{
     position: absolute;
     right: -100px;
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 87%;
+    max-width: 87%;
 }
