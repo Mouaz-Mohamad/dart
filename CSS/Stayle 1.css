@@ -322,7 +322,7 @@ header {
 }
 
 .birthday-conteiner2{
-    width: clamp(70%, 30vw, 70%);
+    width: clamp(80%, 30vw, 80%);
     color: var(--bragnte);
     position: relative;
     z-index: 3;
