@@ -274,7 +274,7 @@ header {
     justify-content: end;
 }
 .story .container-story{
-    width: 240px;
+    width: 260px;
     color: var(--bragnte);
     position: relative;
     z-index: 3;
@@ -282,7 +282,7 @@ header {
 }
 .story .container-story h1{
     font-family: var(--font-irish);
-    font-size: clamp(35px, 8vw, 60px);
+    font-size: clamp(45px, 8vw, 60px);
     -webkit-text-stroke: 0.2px var(--white);
     text-align: left;
     margin-left: 20px;
