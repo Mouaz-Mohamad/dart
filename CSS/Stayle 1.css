@@ -15,7 +15,7 @@ header {
 .under-nav {
     height: 30px;
     padding: 0 0 0 50px;
-    font-family: var(--font-itim);
+    font-family: var(--font-cabin);
     color: var(--white);
     background-color: var(--bragnte);
     font-size: clamp(0.85rem, 1.5vw, 1rem);
