@@ -6,6 +6,7 @@
 }
 
 :root {
+  color-scheme: light only;
   /* Colors */
   --bragnte: #AB012B;
   --secondary: #2196f3;
@@ -35,11 +36,38 @@
   --transition-fast: 0.2s ease;
 }
 
+/* التعديلات دي بتشتغل بس لما المتصفح يفرض Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #ffffff !important; /* إجبار الخلفية تفضل بيضاء */
+    color: #111111 !important; /* ضمان وضوح النصوص */
+  }
+
+  /* لو المتصفح غيّر خلفية العنصر أو كسر الألوان */
+  .search-container,
+  .leaderboard-list,
+  .story,
+  .top {
+    background-color: #ffffff !important;
+    color: var(--bg-dark) !important;
+  }
+
+  /* الحفاظ على ألوان العلامة التجارية الخاصة بـ Dart */
+  .under-nav,
+  .icon-menu,
+  .side-menu {
+    background-color: var(--bragnte) !important;
+  }
+}
+
 /* 2. Global Setup */
 html {
   font-size: 100%;
   scroll-behavior: smooth;
   direction: ltr;
+  forced-color-adjust: none; /* بيمنع المتصفح إنه يغير الألوان من تلقاء نفسه */
+  background-color: #ffffff !important;
+  color: #000000;
 }
 
 body {

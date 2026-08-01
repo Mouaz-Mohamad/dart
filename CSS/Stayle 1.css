@@ -297,7 +297,7 @@ header {
 }
 .story img{
     position: absolute;
-    right: -50px;
+    right: -40px;
     max-width: 110%;
     max-height: 110%;
 }
