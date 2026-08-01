@@ -339,14 +339,14 @@ header {
     justify-content: right;
 }
 .card-conteiner{
-    width: 69%;
+    width: 80%;
     justify-self: left;
     z-index: 3;
 }
 
 .card-details img{
     position: absolute;
-    left: -40px;
+    left: -50px;
     max-height: 87%;
     max-width: 87%;
 }
