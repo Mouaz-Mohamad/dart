@@ -271,6 +271,7 @@ header {
 }
 .story .container-story{
     width: 270px;
+    color: var(--bragnte);
 }
 .story .container-story h1{
     font-family: var(--font-irish);
